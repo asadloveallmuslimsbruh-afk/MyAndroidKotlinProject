@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         val message = findViewById<TextView>(R.id.messageText)
         val button = findViewById<Button>(R.id.welcomeButton)
 
-        title.text = "My Kotlin Project"
+        title.text = "My Kotlin GitHub Project"
         message.text = "Welcome! This is my Android application."
 
         button.setOnClickListener {
